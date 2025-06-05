@@ -1,8 +1,8 @@
 "use client";
-import SecitonHeader from "@/UI/SectionHeader"
-import OpinionBox from "@/ui/OpinionBox";
+import SecitonHeader from "../UI/SectionHeader"
+import OpinionBox from "../UI/OpinionBox";
 import { useState } from "react";
-import opinions from "@/data/opinions";
+import opinions from "../data/opinions";
 import { ChevronRight, ChevronLeft } from "lucide-react";
 
 const References = () => {

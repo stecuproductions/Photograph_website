@@ -1,7 +1,7 @@
 "use client";
 import { useState } from 'react';
-import ContactInput from "@/UI/ContactInput";
-import Button from "@/UI/Button";
+import ContactInput from "../UI/ContactInput";
+import Button from "../UI/Button";
 const ContactForm = () => {
     const inputs = [
         { label: "Temat", name: 'subject', type: 'text', placeholder: 'Wpisz temat wiadomości', required: true },

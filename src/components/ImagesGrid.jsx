@@ -1,7 +1,7 @@
 "use client";
 import React, { useState } from 'react';
 import Image from 'next/image';
-import images from '@/data/images'; // <— Twoje URL-e
+import images from '../data/images'; // <— Twoje URL-e
 
 const getSpanClasses = (size, orientation) => {
   switch (size) {

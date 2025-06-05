@@ -1,5 +1,5 @@
-import SectionHeader from "@/UI/SectionHeader";
-import Paragraph from "@/UI/Paragraph";
+import SectionHeader from "../UI/SectionHeader";
+import Paragraph from "../UI/Paragraph";
 const ContactHeader = () => {
     return (
         <div className="flex flex-col items-center justify-center gap-4">

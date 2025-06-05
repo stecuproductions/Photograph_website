@@ -1,7 +1,7 @@
-import Navbar from "@/components/navbar";
-import Footer from "@/components/Footer";
-import ContactHeader from "@/components/ContactHeader";
-import ContactForm from "@/components/ContactForm";
+import Navbar from "../../components/navbar";
+import Footer from "../../components/Footer";
+import ContactHeader from "../../components/ContactHeader";
+import ContactForm from "../../components/ContactForm";
 export default function Home() {
   return (
     <div className="bg-[url('/images/bg.png')] bg-repeat lg:px-8 ">

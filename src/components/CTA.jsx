@@ -1,6 +1,6 @@
 import { Camera } from "lucide-react";
-import SectionHeader from "@/UI/SectionHeader";
-import Button from "@/UI/Button";
+import SectionHeader from "../UI/SectionHeader";
+import Button from "../UI/Button";
 const CTA = () => {
     return (
         <section id ="#contactMe" className="flex flex-col items-center justify-center gap-4">

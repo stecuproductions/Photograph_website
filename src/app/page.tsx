@@ -1,8 +1,8 @@
-import Navbar from "@/components/navbar";
-import Hero from "@/components/Hero";
-import References from "@/components/References";
-import CTA from "@/components/CTA";
-import Footer from "@/components/Footer";
+import Navbar from "../components/navbar";
+import Hero from "../components/Hero";
+import References from "../components/References";
+import CTA from "../components/CTA";
+import Footer from "../components/Footer";
 export default function Home() {
   return (
     <div className="bg-[url('/images/bg.png')] bg-repeat lg:px-8 ">

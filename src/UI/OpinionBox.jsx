@@ -1,6 +1,6 @@
 
 "use client";
-import Paragraph from "@/UI/Paragraph";
+import Paragraph from "./Paragraph";
 import { useEffect, useState } from "react";
 
 const OpinionBox = ({author, onChange, children}) => {

@@ -1,7 +1,7 @@
-import SectionHeader from "@/UI/SectionHeader";
-import Paragraph from "@/UI/Paragraph"
+import SectionHeader from "../UI/SectionHeader";
+import Paragraph from "../UI/Paragraph"
 import Image from "next/image";
-import Button from "@/UI/Button";
+import Button from "../UI/Button";
 const Hero = () => {
     return (
         <header className="flex flex-col  lg:grid lg:grid-cols-2 grid-rows-2 gap-8">

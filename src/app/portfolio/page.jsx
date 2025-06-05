@@ -1,7 +1,7 @@
-import Navbar from "@/components/navbar";
-import Footer from "@/components/Footer";
-import SectionHeader from "@/UI/SectionHeader";
-import ImagesGrid from "@/components/ImagesGrid";
+import Navbar from "../../components/navbar";
+import Footer from "../../components/Footer";
+import SectionHeader from "../../UI/SectionHeader";
+import ImagesGrid from "../../components/ImagesGrid";
 export default function Home() {
   return (
     <div className="bg-[url('/images/bg.png')] bg-repeat lg:px-8 ">
