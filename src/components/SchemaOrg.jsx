@@ -219,4 +219,3 @@ function getPageDescription(pathname) {
       return 'Profesjonalna fotografia portretowa, ślubna i biznesowa.';
   }
 }
-}

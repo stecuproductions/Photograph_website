@@ -1,0 +1,38 @@
+
+> photograph_website@0.1.0 build
+> next build
+
+   ▲ Next.js 15.3.3
+
+   Creating an optimized production build ...
+Failed to compile.
+
+./src/app/layout.tsx
+Error:   [31mx[0m `ssr: false` is not allowed with `next/dynamic` in Server Components. Please move it into a client component.
+    ,-[[36;1;4mc:\Users\stecu\OneDrive\Pulpit\Budowa portfolio\photograph_website\src\app\layout.tsx[0m:7:1]
+ [2m 4[0m | import metadata from './metadata';
+ [2m 5[0m | 
+ [2m 6[0m | // Import components dynamically to avoid server-side rendering issues
+ [2m 7[0m | const SchemaOrg = dynamic(() => import('../components/SchemaOrg'), { ssr: false });
+    : [35;1m                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+ [2m 8[0m | const Accessibility = dynamic(() => import('../components/Accessibility'), { ssr: false });
+ [2m 9[0m | 
+ [2m10[0m | // Export metadata for the root layout
+    `----
+  [31mx[0m `ssr: false` is not allowed with `next/dynamic` in Server Components. Please move it into a client component.
+    ,-[[36;1;4mc:\Users\stecu\OneDrive\Pulpit\Budowa portfolio\photograph_website\src\app\layout.tsx[0m:8:1]
+ [2m 5[0m | 
+ [2m 6[0m | // Import components dynamically to avoid server-side rendering issues
+ [2m 7[0m | const SchemaOrg = dynamic(() => import('../components/SchemaOrg'), { ssr: false });
+ [2m 8[0m | const Accessibility = dynamic(() => import('../components/Accessibility'), { ssr: false });
+    : [35;1m                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+ [2m 9[0m | 
+ [2m10[0m | // Export metadata for the root layout
+ [2m11[0m | export { metadata };
+    `----
+
+Import trace for requested module:
+./src/app/layout.tsx
+
+
+> Build failed because of webpack errors

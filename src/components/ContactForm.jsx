@@ -44,16 +44,14 @@ const ContactForm = () => {
     return (
         <form action="" className='flex flex-col gap-4 items-center'>
             {inputs.map((input, index) => (
-                <ContactInput
+                <ContactInput 
+                    onChange={handleChange}
                     key={index}
                     label={input.label}
                     name={input.name}
                     type={input.type}
                     placeholder={input.placeholder}
                     value={formData[input.name] || ""}
-                    onChange={(e) =>
-                        setFormData({ ...formData, [input.name]: e.target.value })
-                    }
                     className="mb-4"
                 />
             ))}

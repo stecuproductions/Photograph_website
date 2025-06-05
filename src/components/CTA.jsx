@@ -1,4 +1,3 @@
-import { Camera } from "lucide-react";
 import SectionHeader from "../UI/SectionHeader";
 import Button from "../UI/Button";
 const CTA = () => {
