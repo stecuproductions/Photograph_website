@@ -5,7 +5,6 @@ const Navbar = () =>{
     const navbarItems = [
         {Name: "O mnie", Link : "/"},
         {Name: "Portfolio", Link : "/portfolio"},
-        {Name: "Warsztaty", Link : "/warsztaty"},
         {Name: "Kontakt", Link : "/kontakt"},
     ]
     return(

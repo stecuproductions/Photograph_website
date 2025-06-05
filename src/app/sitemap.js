@@ -7,7 +7,6 @@ export default function sitemap() {
     '',
     '/portfolio',
     '/kontakt',
-    '/warsztaty'
   ].map(route => ({
     url: `${baseUrl}${route}`,
     lastModified: currentDate,
