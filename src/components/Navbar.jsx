@@ -11,7 +11,7 @@ const Navbar = () =>{
         <nav aria-label="Główna nawigacja" className="flex flex-col items-center gap-4 ">
             <div id="logo" className="flex flex-col items-center justify-center gap-2  font-header">
                 <h1 className="text-4xl md:text-6xl uppercase">Julia Nowak</h1>
-                <p className="text-2xl md:text-3xl  uppercase ">Photography</p>
+                <h1 className="text-2xl md:text-3xl  uppercase ">Photography</h1>
             </div>
             <div className="flex  flex-row flex-wrap items-center gap-4 justify-between">
                 {navbarItems.map((item, index) => (
