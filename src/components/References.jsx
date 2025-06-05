@@ -1,5 +1,5 @@
 "use client";
-import SecitonHeader from "@/ui/SectionHeader"
+import SecitonHeader from "@/UI/SectionHeader"
 import OpinionBox from "@/ui/OpinionBox";
 import { useState } from "react";
 import opinions from "@/data/opinions";
