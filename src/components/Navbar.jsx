@@ -4,8 +4,9 @@ const Navbar = () =>{
         
     const navbarItems = [
         {Name: "O mnie", Link : "/"},
-        {Name: "Kontakt", Link : "/kontakt"},
         {Name: "Portfolio", Link : "/portfolio"},
+        {Name: "Warsztaty", Link : "/warsztaty"},
+        {Name: "Kontakt", Link : "/kontakt"},
     ]
     return(
         <nav aria-label="Główna nawigacja" className="flex flex-col items-center gap-4 ">

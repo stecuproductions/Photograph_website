@@ -9,3 +9,40 @@ body {
   --color-secondary: black;
   --color-primary: oklch(98.5% 0.002 247.839)
 }
+
+/* Accessibility styles */
+.high-contrast {
+  filter: contrast(1.5);
+  --color-secondary: #000;
+  --color-primary: #fff;
+  background-color: #000 !important;
+  color: #fff !important;
+}
+
+.inverted {
+  filter: invert(1);
+}
+
+/* Skip to content link for keyboard users */
+.skip-to-content {
+  position: absolute;
+  left: -9999px;
+  top: auto;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+}
+
+.skip-to-content:focus {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: auto;
+  height: auto;
+  padding: 1rem;
+  background-color: white;
+  color: black;
+  z-index: 9999;
+  border: 2px solid black;
+  display: block;
+}

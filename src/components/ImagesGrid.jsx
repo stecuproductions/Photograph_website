@@ -39,6 +39,10 @@ const GalleryGrid = () => {
                 fill
                 className="object-cover"
                 unoptimized={!img.url.startsWith('/')}
+                sizes="(max-width: 640px) 100vw, (max-width: 768px) 50vw, (max-width: 1024px) 33vw, 25vw"
+                loading="lazy"
+                placeholder="blur"
+                blurDataURL="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mNk+P+/HgAEDQIHXU7LPAAAAABJRU5ErkJggg=="
               />
             </div>
           );
